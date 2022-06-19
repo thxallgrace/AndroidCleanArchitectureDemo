@@ -3,11 +3,11 @@
 buildscript {
     ext {
         kotlinVersion = '1.3.21'
-        gradleVersion = '3.3.1'
+        gradleVersion = '4.2.0'
 
-        compileSdkVersion = 28
-        minSdkVersion = 19
-        targetSdkVersion = 28
+        compileSdkVersion = 30
+        minSdkVersion = 25
+        targetSdkVersion = 30
 
         rxAndroidVersion = '2.1.1'
         rxJavaVersion = '2.2.7'
@@ -26,6 +26,8 @@ buildscript {
     dependencies {
         classpath "com.android.tools.build:gradle:$gradleVersion"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        //Hilt
+        classpath "com.google.dagger:hilt-android-gradle-plugin:2.39.1"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
