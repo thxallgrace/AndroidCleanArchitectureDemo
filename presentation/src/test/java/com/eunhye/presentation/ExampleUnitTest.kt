@@ -1,4 +1,4 @@
-package com.eunhye.androidcleanarchitecture
+package com.eunhye.presentation
 
 import org.junit.Test
 

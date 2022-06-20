@@ -1,4 +1,4 @@
-package com.eunhye.androidcleanarchitecture.di
+package com.eunhye.presentation.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
